@@ -1,0 +1,14 @@
+#wrap{
+    position: relative;
+    float: left;
+    width: 100%;
+    border: 1px solid red;
+}
+body {
+    height:100%;
+    width:100%;
+    background-image: url("TadeuszSznuk.jpg");
+    background-color: #FDE456;
+    background-position: cover;
+    color: grey;
+}
