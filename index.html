@@ -22,15 +22,28 @@
 
 	</head>
 	<body>
+		<p>(Song: Sznukwave)</p>
+		<audio controls autoplay>
+			<source src="Sznukwave.mp3" type="audio/mp3">
+		  Your browser does not support the audio element.
+		</audio>
 
+		<input type="text" placeholder="wpisz litere" id="litera" value="mojalitera"/>
+		<div id="panstwa"></div>
 
 
 		<div id="panstwa"></div>
 		<div id="wrap">
-			<input type="text" placeholder="wpisz litere" id="wpisz_litere" value="mojalitera"/>
+			<button id="sprawdz">SPRAWDZ</button>
 			<button id="graj">GRAJ</button>
 			<button id="autor">AUTOR</button>
+			<div id="liczba_zyc"></div>
 		</div>
+
+		<div id="informacjeOAutorze">Maciej Morawski 209399
+			<button id="zamknij_okno">X</button>
+		</div>
+
 		<script type="text/javascript" src="countries.js"></script>		
 		<script type="text/javascript" src="fortuna.js"></script>
 	</body>
