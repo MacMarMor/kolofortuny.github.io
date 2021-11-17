@@ -14,7 +14,7 @@ body {
     background-image: url("TadeuszSznuk.jpg");
     background-position: cover;
     background-size: auto;
-    color: grey;
+    color: whitesmoke;
 }
 
 html{
@@ -38,14 +38,14 @@ html{
 
 button
 {   
-    color: rgb(26, 221, 68);
+    color: rgb(93, 94, 66);
     box-sizing: inherit;
     background-size: 50px 50px;
     box-shadow: rgb(73, 124, 23);
     position: relative;
-    font-size: 50px;
+    font-size: 40px;
     display: block;
-    width: 300px;
+    width: 250px;
     height:50px;
 }
 
@@ -70,7 +70,7 @@ span
 }
 
 button:hover {
-    background-color: #2EE59D;
+    background-color: #502ee5;
     box-shadow: 0px 5px 10px rgba(169, 23, 182, 0.4);
 }
 

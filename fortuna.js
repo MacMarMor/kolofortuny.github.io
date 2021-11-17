@@ -28,7 +28,7 @@ alert(game.zycia);
 document.getElementById("autor").addEventListener("click", wyswietlInfo);
 document.getElementById("zamknij_okno").addEventListener("click", zamknijInfo);
 
-document.getElementById("Nowa_gra").addEventListener("click", zacznijNowaGre);
+document.getElementById("graj").addEventListener("click", zacznijNowaGre);
 
 function wyswietlZycia(dz, liczba_zyc, liczba_zdobytych)
 {
@@ -49,7 +49,7 @@ function kontunuujGre()
 
 function zacznijNowaGre()
 {
-  game.zycia = 3;
+  game.zycia = 5;
   game.zdobyte = 0;
   
   wyswietlZycia(dz, game.zycia, game.zdobyte);
@@ -68,7 +68,7 @@ function wyswietlInfo()
 {
   var div = document.getElementById("informacjeOAutorze");
   div.style.display = "block";
-  div.style.backgroundColor = "green"
+  div.style.backgroundColor = "Purple"
   
   console.log(div)
 }
